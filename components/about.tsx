@@ -38,7 +38,7 @@ export default function About() {
           University of Calgary
         </span>, where I've had the opportunity to develop a strong foundation in various aspects of technology. My academic journey has been driven by a keen interest in <span className="font-bold">
         data analytics and visualization
-        </span>, which is where I believe the future of technology lies. I've become proficient in SQL for data handling and Power BI for creating insightful visualizations, skills that I've honed through both academic projects and personal initiatives. In addition to my academic pursuits, I've gained practical experience working with MERN ( <span className="font-bold">
+        </span>, which is where I believe the future of technology lies. I've become proficient in Python and SQL for data handling and Power BI for creating insightful visualizations, skills that I've honed through both academic projects and personal initiatives. In addition to my academic pursuits, I've gained practical experience working with MERN ( <span className="font-bold">
           MongoDB, Express.js, Node.js, React
         </span> ) Stack. Whether it's through data analytics, providing meaningful insights for business decisions, or developing applications that can make people's lives easier, I am passionate about using my skills to make a tangible impact.
       </p>
