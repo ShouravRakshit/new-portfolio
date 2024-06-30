@@ -31,9 +31,16 @@ export default function Contact() {
     >
       <SectionHeading>Contact me</SectionHeading>
 
-      <p className="mt-5 dark:text-black">
-        If you have any questions or just want to say hi, feel free to send me
-        an email.
+      {/* <p className="text-gray-700 -mt-6 dark:text-white/80">
+        Please contact me directly at{" "}
+        <a className="underline" href="mailto:example@gmail.com">
+          example@gmail.com
+        </a>{" "}
+        or through this form.
+      </p> */}
+
+      <p className="text-gray-700 dark:text-white/80">
+        Please contact me through this form.
       </p>
 
       <form
@@ -56,6 +63,13 @@ export default function Contact() {
           required
           maxLength={500}
           placeholder="Your email"
+        />
+        <input
+          className="h-14 my-3 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          name="name"
+          required
+          maxLength={100}
+          placeholder="Your name"
         />
         <textarea
           className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
