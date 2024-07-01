@@ -67,6 +67,7 @@ export const projectsData = [
       "Revolutionizing study methods to boost academic achievements and reduce study time.",
     tags: ["HTML", "CSS", "Javascript", "Express.js","React.js", "Typescript", "MongoDB", "Material UI",],
     imageUrl: Summarify,
+    link: "https://github.com/the-sin14/seng-513-project"
   },
   {
     title: "Tokyo 2021 Olympics Data Analysis",
@@ -74,6 +75,7 @@ export const projectsData = [
       "The goal of this project was to leverage advanced data analytics to uncover valuable insights from the Tokyo 2021 Olympics data.",
     tags: ["Synapse Analytics", "Azure Databricks", "MySQL", "Apache Spark", "Power BI"],
     imageUrl: Tokyo,
+    link: "https://github.com/ShouravRakshit/Tokyo-Olympic-2021"
   },
   {
     title: "Atliq Company Sales Analysis",
@@ -81,6 +83,7 @@ export const projectsData = [
       "The objective of this project was to analyze Atliq Company's sales data from 2017 to 2020 to identify trends and key performance indicators. ",
     tags: ["MySQL", "Power BI"],
     imageUrl: Atliq,
+    link: "https://github.com/ShouravRakshit/Atliq-Company-Sales-Analysis"
   },
 ] as const;
 
