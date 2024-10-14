@@ -11,7 +11,7 @@ import { educationData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
-export default function Experience() {
+export default function Education() {
   const { ref } = useSectionInView("Education");
   const { theme } = useTheme();
 
