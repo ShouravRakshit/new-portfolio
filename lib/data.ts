@@ -1,5 +1,7 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
+import { MdWork } from "react-icons/md";
+
 import Summarify from "@/public/Summarify.png";
 import Tokyo from "@/public/Tokyo Olympic 2021 Analysis.png";
 import Atliq from "@/public/Atliq Sales Analysis.png";
@@ -62,7 +64,7 @@ export const experienceData = [
     location: "Calgary, AB",
     description:
       "I'm currently working as a Data Analyst at Neuraura to analyze patient data related to Polycystic Ovary Syndrome (PCOS).",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(MdWork ),
     date: "2024 July - Present",
   },
   {
@@ -71,7 +73,7 @@ export const experienceData = [
     location: "Dhaka, Bangladesh",
     description:
       "I worked as a Program Administrator, assisting in organizing events and guiding students during registration.",
-      icon: React.createElement(LuGraduationCap),
+      icon: React.createElement(MdWork ),
       date: "2017 August - 2019 July",
   },
   
