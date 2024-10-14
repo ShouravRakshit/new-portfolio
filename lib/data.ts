@@ -1,6 +1,4 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import Summarify from "@/public/Summarify.png";
 import Tokyo from "@/public/Tokyo Olympic 2021 Analysis.png";
@@ -14,6 +12,10 @@ export const links = [
   {
     name: "About",
     hash: "#about",
+  },
+  {
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Projects",
@@ -50,14 +52,7 @@ export const educationData = [
       icon: React.createElement(LuGraduationCap),
       date: "2017 - 2019",
   },
-  // {
-  //   title: "Full-Stack Developer",
-  //   location: "Houston, TX",
-  //   description:
-  //     "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-  //   icon: React.createElement(FaReact),
-  //   date: "2021 - present",
-  // },
+
 ] as const;
 
 export const experienceData = [
@@ -75,7 +70,7 @@ export const experienceData = [
     description:
       "I worked as a Program Administrator, assisting in organizing events and guiding students during registration.",
       icon: React.createElement(LuGraduationCap),
-      date: "2017 - 2019",
+      date: "2017 August - 2019 July",
   },
   
 ] as const;
