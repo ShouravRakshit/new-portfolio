@@ -60,6 +60,26 @@ export const educationData = [
   // },
 ] as const;
 
+export const experienceData = [
+  {
+    title: "Neuraura",
+    location: "Calgary, AB",
+    description:
+      "I'm currently working as a Data Analyst at Neuraura to analyze patient data related to Polycystic Ovary Syndrome (PCOS).",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 July - Present",
+  },
+  {
+    title: "Notre Dame Science Club",
+    location: "Dhaka, Bangladesh",
+    description:
+      "I worked as a Program Administrator, assisting in organizing events and guiding students during registration.",
+      icon: React.createElement(LuGraduationCap),
+      date: "2017 - 2019",
+  },
+  
+] as const;
+
 export const projectsData = [
   {
     title: "Summarify",
