@@ -58,6 +58,7 @@ export const educationData = [
 export const experienceData = [
   {
     title: "Neuraura",
+    job_title: "Data Analyst",
     location: "Calgary, AB",
     description:
       "I'm currently working as a Data Analyst at Neuraura to analyze patient data related to Polycystic Ovary Syndrome (PCOS).",
@@ -65,7 +66,8 @@ export const experienceData = [
     date: "2024 July - Present",
   },
   {
-    title: "Notre Dame Science Club",
+    title: "NDSC",
+    job_title: "Program Administrator",
     location: "Dhaka, Bangladesh",
     description:
       "I worked as a Program Administrator, assisting in organizing events and guiding students during registration.",
