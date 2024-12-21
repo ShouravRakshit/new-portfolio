@@ -5,6 +5,9 @@ import { MdWork } from "react-icons/md";
 import Summarify from "@/public/Summarify.png";
 import Tokyo from "@/public/Tokyo Olympic 2021 Analysis.png";
 import Atliq from "@/public/Atliq Sales Analysis.png";
+import QuickCart from "@/public/QuickCart.png"
+import ExploreNow from "@/public/ExploreNow.png";
+import Canadian_House_Predictor from "@/public/Canadian_House_Predictor.png"
 
 export const links = [
   {
@@ -81,10 +84,34 @@ export const experienceData = [
 
 export const projectsData = [
   {
+    title: "ExploreNow",
+    description:
+      "ExploreNow is a travel app designed to help you explore new places with your friends.ExploreNow addresses this gap by offering a social media platform designed specifically for travelers.",
+    tags: ["Swift Programming ", "Firebase", "iOS Development", "Figma "],
+    imageUrl: ExploreNow,
+    link: "https://github.com/ShouravRakshit/ExploreNow"
+  },
+  {
+    title: "QuickCart",
+    description:
+      "A Minimal E-commerce Platform QuickCart is a lightweight, responsive e-commerce application designed to deliver a seamless shopping experience.",
+    tags: ["HTML", "Tailwind CSS", "Javascript", "Django","SQLite", "Docker"],
+    imageUrl: QuickCart,
+    link: "https://github.com/ShouravRakshit/Quick-Cart"
+  },
+  {
+    title: "Canadian-House-Prediction",
+    description:
+      "The Canadian House Price Predictor is a web app that estimates home prices based on inputs like location, bedrooms, and bathrooms.",
+    tags: ["Python", "HTML5", "CSS", "JavaScript", "Flask", "Machine Learning Algorithm", "Amazon EC2"],
+    imageUrl: Canadian_House_Predictor,
+    link: "https://github.com/ShouravRakshit/Canadian-House-Prediction"
+  },
+  {
     title: "Summarify",
     description:
       "Revolutionizing study methods to boost academic achievements and reduce study time.",
-    tags: ["HTML", "CSS", "Javascript", "Express.js","React.js", "Typescript", "MongoDB", "Material UI",],
+    tags: ["HTML", "CSS", "Javascript", "Express.js","React.js", "Typescript", "MongoDB", "Material UI", "Docker"],
     imageUrl: Summarify,
     link: "https://github.com/the-sin14/seng-513-project"
   },
