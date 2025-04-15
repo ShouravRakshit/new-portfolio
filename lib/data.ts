@@ -179,6 +179,11 @@ export const skillsData = [
   "Linux",
   "VPN",
   "Network Security",
-  
-
+  "Data Analysis",
+  "Data Visualization",
+  "Llama 3.1",
+  "Selenium",
+  "Deepseek",
+  "Groq",
+  "NLP",
 ] as const;
