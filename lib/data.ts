@@ -8,6 +8,7 @@ import Atliq from "@/public/Atliq Sales Analysis.png";
 import QuickCart from "@/public/QuickCart.png"
 import ExploreNow from "@/public/ExploreNow.png";
 import Canadian_House_Predictor from "@/public/Canadian_House_Predictor.png"
+import JobHunter from "@/public/JobHunter.png";
 
 export const links = [
   {
@@ -83,6 +84,16 @@ export const experienceData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "JobHunter",
+    description:
+      "JobHunter is an AI-powered job discovery platform that scrapes verified Workday portals and filters out fake listings.",
+    tags: ['Python',  'Tailwind', 'React.js', 'Django-Rest-Framework',
+        'NLP', 'MongoDB', 'Docker', 'Selenium', 
+       'Llama 3.1', 'Postman', 'Figma'],
+    imageUrl: JobHunter,
+    link: "https://github.com/ShouravRakshit/JobHunter"
+  },
   {
     title: "ExploreNow",
     description:
