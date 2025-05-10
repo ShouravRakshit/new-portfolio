@@ -226,6 +226,3 @@ export const skillsData = {
   },
 } as const;
 
-export const flatSkillsData = Object.values(skillsData)
-  .flatMap(category => category.skills)
-  .sort() as const;
