@@ -69,7 +69,7 @@ export const experienceData = [
     description:
       "I'm currently working as a Data Analyst at Neuraura to analyze patient data related to Polycystic Ovary Syndrome (PCOS).",
     icon: React.createElement(MdWork ),
-    date: "2024 July - Present",
+    date: "2024 July - 2025 April",
   },
   {
     title: "NDSC",

@@ -19,21 +19,37 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm currently studying Computer Science at the <span className="font-bold">
-          University of Calgary
-        </span>, where I've had the opportunity to develop a strong foundation in various aspects of technology. My academic journey has been driven by a keen interest in <span className="font-bold">
-        data analytics and visualization
-        </span>, which is where I believe the future of technology lies. I've become proficient in Python and SQL for data handling and Power BI for creating insightful visualizations, skills that I've honed through both academic projects and personal initiatives. In addition to my academic pursuits, I've gained practical experience working with MERN ( <span className="font-bold">
-          MongoDB, Express.js, Node.js, React
-        </span> ) Stack. Whether it's through data analytics, providing meaningful insights for business decisions, or developing applications that can make people's lives easier, I am passionate about using my skills to make a tangible impact.
+        I transform complex data into intelligent solutions using Generative AI
+        and machine learning. As a final year Computer Science student at the{" "}
+        <span className="font-bold">University of Calgary</span> with <span className="font-bold">three
+        years</span> of hands-on experience working with large complex datasets, I've
+        built <span className="font-bold">LLM-powered applications</span>{" "}
+        (including a 40% more efficient semantic search engine), developed{" "}
+        <span className="font-bold">predictive models</span> with 94% accuracy,
+        and created interactive dashboards that drive data-driven decisions.
       </p>
-      
+
+      <p className="mb-3">
+        My expertise spans <span className="font-medium">AI/ML development</span> (specializing in LLMs, 
+        computer vision, and predictive modeling), <span className="font-medium">full-stack web development</span>,
+        <span className="font-medium"> iOS development</span> with Swift/SwiftUI,
+        and <span className="font-medium">data engineering</span>. I've worked extensively with modern frameworks 
+        and tools to build intelligent applications that solve real business problems.
+      </p>
+
+      <p className="mb-3">
+        <span className="italic">When I'm not optimizing algorithms</span>,
+        you'll find me strategizing over chess games, playing piano, or watching
+        UFC matches. I find the same analytical thinking that powers my data
+        science work applies equally to chess tactics, musical patterns, and
+        fight analytics. What excites me most is translating intricate data
+        insights into actionable business strategies.
+      </p>
+
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games and piano, watching movies, and animes. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">machine learning algorithms to implement in my MERN Stack projects.</span>
+        Let's connect to discuss{" "}
+        <span className="font-bold">AI Innovation</span> and{" "}
+        <span className="font-bold">Data Solutions</span>!
       </p>
     </motion.section>
   );
