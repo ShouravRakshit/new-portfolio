@@ -63,20 +63,29 @@ export const educationData = [
 
 export const experienceData = [
   {
+    title: "SynergyLoft",
+    job_title: "AI Software Developer",
+    location: "Calgary, AB",
+    description:
+      "I'm currently building a system to automatically sort and route emails and documents for the Accounts Payable team using AI.",
+    icon: React.createElement(MdWork ),
+    date: "2025 June - Present",
+  },
+  {
     title: "Neuraura",
     job_title: "Data Analyst",
     location: "Calgary, AB",
     description:
-      "I'm currently working as a Data Analyst at Neuraura to analyze patient data related to Polycystic Ovary Syndrome (PCOS).",
+      "I'm worked as a Data Analyst at Neuraura to analyze patient data related to Polycystic Ovary Syndrome (PCOS).",
     icon: React.createElement(MdWork ),
     date: "2024 July - 2025 April",
   },
   {
     title: "NDSC",
-    job_title: "Program Administrator",
+    job_title: "IT Desk Support",
     location: "Dhaka, Bangladesh",
     description:
-      "I worked as a Program Administrator, assisting in organizing events and guiding students during registration.",
+      "I worked as a IT Desk Support, assisting in organizing events and guiding students during registration.",
       icon: React.createElement(MdWork ),
       date: "2017 August - 2019 July",
   },
