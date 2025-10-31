@@ -67,7 +67,7 @@ export const experienceData = [
     job_title: "AI Software Developer",
     location: "Calgary, AB",
     description:
-      "I'm currently building a system to automatically sort and route emails and documents for the Accounts Payable team using AI.",
+      "I'm currently building a system to automatically sort and route emails and documents for the Accounts Payable team using Hugging Face Models.",
     icon: React.createElement(MdWork ),
     date: "2025 June - Present",
   },
