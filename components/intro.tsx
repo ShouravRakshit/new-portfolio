@@ -66,7 +66,7 @@ export default function Intro() {
         <span className="font-bold">Hello, I'm Ivan.</span> I'm am looking for{" "}
         <Typewriter
             options={{
-              strings: ["MERN Stack Developer", "Data Analyst", "Machine Learning Engineer", "IT Support Specialist"],
+              strings: [ "Data Scientist", "GEN AI Developer", "AI Software Developer", "Machine Learning Engineer", "Data Analyst", "MERN Stack Developer" ],
               autoStart: true,
               loop: true,
             }}
