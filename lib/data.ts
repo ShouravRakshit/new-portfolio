@@ -7,8 +7,10 @@ import Tokyo from "@/public/Tokyo Olympic 2021 Analysis.png";
 import Atliq from "@/public/Atliq Sales Analysis.png";
 import QuickCart from "@/public/QuickCart.png"
 import ExploreNow from "@/public/ExploreNow.png";
+import FlatMates from "@/public/FlatMates.png";
 import Canadian_House_Predictor from "@/public/Canadian_House_Predictor.png"
 import JobHunter from "@/public/JobHunter.png";
+import { title } from "process";
 
 export const links = [
   {
@@ -96,7 +98,7 @@ export const projectsData = [
   {
     title: "JobHunter",
     description:
-      "JobHunter is an AI-powered job discovery platform that scrapes verified Workday portals and filters out fake listings.",
+      "JobHunter is an AI-powered job discovery platform that scrapes verified Workday portals.",
     tags: ['Python',  'Tailwind', 'React.js', 'Django-Rest-Framework',
         'NLP', 'MongoDB', 'Docker', 'Selenium', 
        'Llama 3.1', 'Postman', 'Figma'],
@@ -104,9 +106,16 @@ export const projectsData = [
     link: "https://github.com/ShouravRakshit/JobHunter"
   },
   {
+    title: "FlatMates",
+    description: "FlatMates is a modern iOS application designed to help users find compatible roommates through a streamlined matching process.",
+    tags: ["Swift Programming ", "Firebase", "iOS Development", "Figma "],
+    imageUrl: FlatMates,
+    link: "https://github.com/anshi2500/flatmates"
+  },
+  {
     title: "ExploreNow",
     description:
-      "ExploreNow is a travel app designed to help you explore new places with your friends.ExploreNow addresses this gap by offering a social media platform designed specifically for travelers.",
+      "ExploreNow is a travel app designed to help you explore new places with your friends. ",
     tags: ["Swift Programming ", "Firebase", "iOS Development", "Figma "],
     imageUrl: ExploreNow,
     link: "https://github.com/ShouravRakshit/ExploreNow"
