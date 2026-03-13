@@ -69,7 +69,7 @@ export const experienceData = [
     job_title: "AI Software Developer",
     location: "Calgary, AB",
     description:
-      "I'm currently building a system to automatically sort and route emails and documents for the Accounts Payable team using Hugging Face Models.",
+      "AP-Service: I'm currently building a system to automatically sort and route emails and documents for the Accounts Payable team using Hugging Face Models. DPS Logistics: I'm working on a multi-role logistics platform using React, TypeScript, Express, and PostgreSQL, featuring real-time delivery tracking, PDF/CSV invoice generation, delivery performance and revenue reporting, and Google Places autocomplete across 3 user roles.  ",
     icon: React.createElement(MdWork ),
     date: "2025 June - Present",
   },
