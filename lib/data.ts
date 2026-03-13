@@ -48,9 +48,9 @@ export const educationData = [
     title: "University of Calgary",
     location: "Calgary, AB",
     description:
-      "I'm currently pursuing a Bachelor of Science in Computer Science at the University of Calgary. I'm expected to graduate in 2025",
+      "Graduated in Fall 2025 from the University of Calgary with a BSc in Computer Science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2020 - Present",
+    date: "2020 - 2025",
   },
   {
     title: "Notre Dame College",
