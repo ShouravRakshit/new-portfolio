@@ -66,10 +66,19 @@ export const educationData = [
 export const experienceData = [
   {
     title: "SynergyLoft",
+    job_title: "Full Stack Developer",
+    location: "Calgary, AB",
+    description:
+      "DPS Logistics: I'm working on a multi-role logistics platform using React, TypeScript, Express, and PostgreSQL, featuring real-time delivery tracking, PDF/CSV invoice generation, delivery performance and revenue reporting, and Google Places autocomplete across 3 user roles.  ",
+    icon: React.createElement(MdWork ),
+    date: "2026 February - Present",
+  },
+  {
+    title: "SynergyLoft",
     job_title: "AI Software Developer",
     location: "Calgary, AB",
     description:
-      "AP-Service: I'm currently building a system to automatically sort and route emails and documents for the Accounts Payable team using Hugging Face Models. DPS Logistics: I'm working on a multi-role logistics platform using React, TypeScript, Express, and PostgreSQL, featuring real-time delivery tracking, PDF/CSV invoice generation, delivery performance and revenue reporting, and Google Places autocomplete across 3 user roles.  ",
+      "AP-Service: I'm currently building a system to automatically sort and route emails and documents for the Accounts Payable team using Hugging Face Models.",
     icon: React.createElement(MdWork ),
     date: "2025 June - Present",
   },
